@@ -1,0 +1,17 @@
+lui x7, 65536
+addi x5,x0,13
+sw x5,0(x7)
+lw x10,0(x7)
+addi x18,x10,10
+sw x10,8(x7)
+jal x12, I
+
+addi x20,x4,3
+addi x10,x10,18
+addi x22,x0,31
+beq x10,x22,S
+
+addi x20,x20,1
+I:jalr x4,0(x12)
+
+S:

@@ -1,0 +1,6 @@
+addi x11,x11,4
+addi x9,x9,4
+addi x8,x8,4
+beq x11,x9, I
+addi x10,x10,20
+I:

@@ -1,0 +1,8 @@
+addi x6,x6,-19
+addi x5,x0,33
+sw x5,0(x3)
+lw x10,0(x3)
+blt x6,x10,I
+lw x10,0(x3)
+addi x10,x10,20
+I:

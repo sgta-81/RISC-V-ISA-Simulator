@@ -1,0 +1,10 @@
+addi x5,x0,33
+sw x5,0(x3)
+lw x10,0(x3)
+addi x10,x10,40
+# addi x0,x0,0
+# addi x0,x0,0
+# jalr x0,-20(x10)
+jalr x0,-49(x10)  
+I: addi x19,x19,1
+addi x20,x20,1
